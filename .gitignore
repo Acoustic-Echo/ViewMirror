@@ -1,0 +1,44 @@
+# Local tools and generated build/release artifacts
+/.tools/
+/.vs/
+/artifacts/
+/build/
+/releases/
+**/bin/
+**/obj/
+**/CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+CTestTestfile.cmake
+compile_commands.json
+.ninja_deps
+.ninja_log
+build.ninja
+
+# Editor state, caches, and test output
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+**/__pycache__/
+*.py[cod]
+.pytest_cache/
+[Tt]est[Rr]esults/
+*.log
+*.tmp
+*.bak
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Machine-specific state and signing credentials
+windows-local.json
+receiver-windows.json
+receiver-preferences.json
+.env
+.env.*
+!.env.example
+*.pfx
+*.p12
+*.key
+*.pem

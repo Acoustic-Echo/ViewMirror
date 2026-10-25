@@ -1,0 +1,9 @@
+{
+  "source": "https://raw.githubusercontent.com/opensource-jp/licenses/5972337d07bba0e49f01fc0a17daea241c6b7ea8/GPL-3.0/GPL-3.0.md",
+  "commit": "5972337d07bba0e49f01fc0a17daea241c6b7ea8",
+  "sourceSha256": "5ee4379fd6886dfcbaca651f7ae9c362e23ddd3684d97b3f254573928fbfdafc",
+  "displaySha256": "3a6281a5191cbc2d39cf09385459bd1cb5aad9f348ee82fcefc99a896939ffc8",
+  "transformation": "Japanese introductory notice prepended; Markdown heading prefixes removed; translation wording, notices and history retained.",
+  "guidelines": "https://www.gnu.org/licenses/translations.html",
+  "englishOriginal": "LICENSE.txt in the application payload"
+}

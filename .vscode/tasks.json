@@ -1,0 +1,8 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {"label": "ViewMirror: build", "type": "shell", "command": "bash scripts/macos/build.sh", "windows": {"command": "powershell.exe -NoProfile -ExecutionPolicy RemoteSigned -File scripts/windows/build.ps1"}, "group": {"kind": "build", "isDefault": true}, "problemMatcher": []},
+    {"label": "ViewMirror: verify", "type": "shell", "command": "bash scripts/macos/verify.sh", "windows": {"command": "powershell.exe -NoProfile -ExecutionPolicy RemoteSigned -File scripts/windows/verify.ps1"}, "problemMatcher": []},
+    {"label": "ViewMirror: receive", "type": "shell", "command": "bash scripts/macos/verify.sh --receive", "windows": {"command": "powershell.exe -NoProfile -ExecutionPolicy RemoteSigned -File scripts/windows/verify.ps1 -Receive"}, "problemMatcher": []}
+  ]
+}

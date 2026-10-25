@@ -1,0 +1,9 @@
+<Solution>
+  <Folder Name="/src/" />
+  <Folder Name="/src/Windows/">
+    <Project Path="src/Windows/viewMirror.App/viewMirror.App.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/viewMirror.SmokeTests/viewMirror.SmokeTests.csproj" />
+  </Folder>
+</Solution>

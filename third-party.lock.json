@@ -1,0 +1,9 @@
+{
+  "uxplay": {
+    "version": "1.74",
+    "url": "https://github.com/FDH2/UxPlay",
+    "windowsDiscovery": "internal-mdns",
+    "sourceManifest": "docs/versions/uxplay-source.sha256",
+    "macosDiscovery": "Bonjour"
+  }
+}
